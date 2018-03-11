@@ -1,0 +1,92 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: 175%;
+}
+
+p {
+  position: relative;
+  border: 3px solid black;
+  padding: 10px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+  color: black;
+  background-color: #948181;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** desktop device **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** tablet device **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** mobile device **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+
+.item-name {
+  text-align: center;
+  float: right;
+  top: 7px;
+  left: 284px;
+  width: 150px;
+  height: 50px;
+  margin-top: -13px;
+  margin-right: -13px;
+  padding-top: 5px;
+  border: 3px solid black;
+  font-size: 125%;
+}
+
+#chicken-color {
+  background-color: #d66767;  
+}
+
+#beef-color {
+  color: white;
+  background-color: #a91e1e;  
+}
+
+#sushi-color {
+  background-color: #dabb51;  
+}
+
