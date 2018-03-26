@@ -1,0 +1,48 @@
+/** HEADER **/
+* {
+  font-family: "Comic Sans MS";
+}
+
+#header-nav {
+	background-color: #ebd8d8;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button {
+  margin-top: 15px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+.dropdown-menu {
+	width: 100%;
+	padding: 0;
+	border-radius: 0;
+	border: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu>li>a {
+	text-align: center;
+    border-color: #decdd3;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+#navbar-brand {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/** END HEADER **/
